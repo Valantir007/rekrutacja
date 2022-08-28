@@ -3,6 +3,7 @@
 namespace KamilDemuratRekrutacjaHRtec\Rss\Printer;
 
 use DateTime;
+use Exception;
 use KamilDemuratRekrutacjaHRtec\Rss\Dto\Channel;
 use KamilDemuratRekrutacjaHRtec\Rss\Dto\Item;
 use KamilDemuratRekrutacjaHRtec\Rss\Dto\Rss;
@@ -24,7 +25,7 @@ class RssPrinterTest extends TestCase
     }
 
     /**
-     * @throws \Exception
+     * @throws Exception
      */
     public function testNotEmptyArrayToPrint()
     {
