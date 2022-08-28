@@ -1,0 +1,37 @@
+{
+    "name": "kamil/extractor",
+    "description": "A skeleton package to use as a base",
+    "keywords": ["extractor", "nationalgeographic"],
+    "homepage": "https://github.com/SammyK/package-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil Demurat",
+            "email": "kamil.demurat@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-intl": "*",
+        "symfony/console": "^5.4",
+        "guzzlehttp/guzzle": "^7.4",
+        "jms/serializer": "^3.18",
+        "psr/log": "^1.1.4",
+        "symfony/validator": "^5.4"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master@dev",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "KamilDemuratRekrutacjaHRtec\\": ["src"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KamilDemuratRekrutacjaHRtec\\Tests\\": "tests/"
+        }
+    }
+}
