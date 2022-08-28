@@ -50,9 +50,10 @@ class RssPrinterTest extends TestCase
             [
                 "test",
                 "test with html",
+                "test",
                 "28 sierpnia 2022 13:03:01",
-                "Test Testowy"
-            ]
+                "Test Testowy",
+            ],
         ], $dataToPrint);
     }
 }

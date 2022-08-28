@@ -37,6 +37,7 @@ class RssPrinter implements PrinterInterface
             $rows[] = [
                 $item->getTitle(),
                 strip_tags($item->getDescription()),
+                $item->getLink(),
                 $pubDate,
                 $item->getCreator()
             ];
